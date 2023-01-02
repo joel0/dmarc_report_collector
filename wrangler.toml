@@ -1,4 +1,7 @@
-name = "email_worker_parser"
-main = "src/index.js"
+name = "dmarc_report_collector"
+main = "src/main.js"
 compatibility_date = "2022-12-05"
 usage_model = "unbound"
+
+[vars]
+FALLTHROUGH_ADDR = ""
